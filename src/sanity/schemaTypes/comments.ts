@@ -1,5 +1,5 @@
 // schemas/comment.ts
-export  default  {
+export const comment = {
     title: 'Comment',
     name: 'comment',
     type: 'document',

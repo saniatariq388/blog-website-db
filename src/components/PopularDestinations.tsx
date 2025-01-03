@@ -4,12 +4,7 @@ import Link from 'next/link'
 import { Post } from './FeaturedPosts';
 
 async function PopularDestinations() {
-  // const destinations = [
-  //   { id: 1, name: "Naran Kaghan", image: "/images/naran.jpg?height=400&width=600", description: "A picturesque valley known for its stunning lakes and lush green meadows.", slug: "naran-kaghan" },
-  //   { id: 2, name: "Swat Valley", image: "/images/sawat.jpg?height=400&width=600", description: "Often called the 'Switzerland of Pakistan' for its snow-capped mountains and clear rivers.", slug: "swat-valley" },
-  //   { id: 3, name: "Skardu", image: "/images/scardo.jpg?height=400&width=600", description: "Gateway to the mighty Karakoram Range, home to five of the world's 14 highest peaks.", slug: "skardu" },
-  //   { id: 4, name: "Chitral", image: "/images/citral.jpeg?height=400&width=600", description: "Known for its unique culture, polo tournaments, and the Kalash valleys.", slug: "chitral" },
-  // ]
+ 
 
 
 
@@ -26,7 +21,7 @@ async function PopularDestinations() {
      }
        }`)
   
-     const {heading, popularCards,date, cardImg, title, description, slug, id} = destinations;
+     const {heading, popularCards,} = destinations;
 
 
   return (

@@ -71,7 +71,7 @@ export default async function Sidebar() {
    }
    `)
 
-    const {heading, featuredDestinationCards,cardImg, date, title,  description, slug, id} = featuredDestination;
+    const {heading, featuredDestinationCards, title,  } = featuredDestination;
 
   return (
     <aside className="w-full md:w-1/4 p-4 bg-primary-50 rounded-lg shadow-md">

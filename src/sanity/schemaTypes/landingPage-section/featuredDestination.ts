@@ -1,4 +1,4 @@
-export default{
+export  const featuredDestination = {
     title: 'Featured Destination Section',
     name: 'featuredDestinationSection',
     type: 'object',

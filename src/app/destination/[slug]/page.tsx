@@ -18,6 +18,7 @@ const destinationDetails = {
 }
 
 export default function DestinationPage({ params }: { params: { slug: string } }) {
+  const {slug} = params;
   return (
     <div className="min-h-screen flex flex-col bg-primary-50">
       <main className="flex-grow container mx-auto px-4 py-8">

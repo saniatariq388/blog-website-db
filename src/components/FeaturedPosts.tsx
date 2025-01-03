@@ -15,7 +15,7 @@ export default async function FeaturedPosts () {
   
    const posts =  await client.fetch("*[_type == 'landingPage'][0].sections[0]{'heading': heading,'featuredCards':featuredCards[]{'date':date,'cardImg':cardImg.asset->url,'title':title,'slug':slug, 'id':id ,}}")
 
-   const {heading,featuredCards, date,  cardImg, title, slug, id} = posts;
+   const {heading,featuredCards, title,} = posts;
 
   return (
    <>
