@@ -1,5 +1,4 @@
-import Header from './Header'
-import Footer from './Footer'
+
 import Comments from './Comments'
 
 interface BlogPostLayoutProps {

@@ -24,33 +24,7 @@ interface Destination {
   slug: string,
   id: number,
   date: number,
-}[]
-
-// const featuredDestination: Destination[] =[ {
-//   name: 'Hunza Valley',
-//   description: 'Known for its stunning landscapes and longevity of its people.',
-//   image: '/images/hunzaVellay.jpg?height=200&width=300',
-//   slug: 'hunza-valley'
-// },
-//  {
-//   name: 'Hunza Valley',
-//   description: 'Known for its stunning landscapes and longevity of its people.',
-//   image: '/images/hunzaVellay.jpg?height=200&width=300',
-//   slug: 'hunza-valley'
-// },
-//  {
-//   name: 'Hunza Valley',
-//   description: 'Known for its stunning landscapes and longevity of its people.',
-//   image: '/images/hunzaVellay.jpg?height=200&width=300',
-//   slug: 'hunza-valley'
-// },
-//  {
-//   name: 'Hunza Valley',
-//   description: 'Known for its stunning landscapes and longevity of its people.',
-//   image: '/images/hunzaVellay.jpg?height=200&width=300',
-//   slug: 'hunza-valley'
-// },
-// ]
+}
 
 
  
@@ -74,7 +48,7 @@ export default async function Sidebar() {
     const {heading, featuredDestinationCards, title,  } = featuredDestination;
 
   return (
-    <aside className="w-full md:w-1/4 p-4 bg-primary-50 rounded-lg shadow-md">
+    <aside className="w-full md:w-1/4 p-4 bg-primary-50 rounded-lg shadow-md mt-20">
       <div className="mb-8">
         <h2 className="text-lg md:text-xl font-semibold mb-4 text-secondary-700">Blog Categories</h2>
         <ul className="space-y-2">
@@ -93,7 +67,7 @@ export default async function Sidebar() {
         <ul className="space-y-2">
           {recentPosts.map((post) => (
             <li key={post.slug}>
-              <Link href={`/blog/${post.slug}`} className="text-sm md:text-base text-primary-600 hover:text-primary-800 transition-colors duration-300">
+              <Link href={`#`} className="text-sm md:text-base text-primary-600 hover:text-primary-800 transition-colors duration-300">
                 {post.title}
               </Link>
             </li>

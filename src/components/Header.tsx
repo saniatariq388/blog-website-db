@@ -23,7 +23,7 @@ const Header = () => {
           <ul className={`md:flex space-y-2 md:space-y-0 md:space-x-6 ${isMenuOpen ? 'block' : 'hidden'} absolute md:relative top-full left-0 right-0 bg-primary-100 md:bg-transparent p-4 md:p-0`}>
             <li><Link href="/" className="block hover:text-secondary-500 transition duration-300">Home</Link></li>
             <li><Link href="/blogs" className="block hover:text-secondary-500 transition duration-300">Blog</Link></li>
-            <li><Link href="/destinations" className="block hover:text-secondary-500 transition duration-300">Destinations</Link></li>
+            <li><Link href="/destination" className="block hover:text-secondary-500 transition duration-300">Destinations</Link></li>
             <li><Link href="/about" className="block hover:text-secondary-500 transition duration-300">About</Link></li>
             <li><Link href="/contact" className="block hover:text-secondary-500 transition duration-300">Contact</Link></li>
           </ul>

@@ -1,4 +1,4 @@
-export default {
+export const aboutBlogSection = {
     title: 'About Blog Section',
     name: 'aboutBlogSection',
     type: 'object',

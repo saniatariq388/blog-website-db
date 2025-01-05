@@ -1,4 +1,4 @@
-export const featuredDestination = {
+export const featuredPostSection = {
     title: 'Featured Post Section',
     name: 'featuredPostSection',
     type: 'object',

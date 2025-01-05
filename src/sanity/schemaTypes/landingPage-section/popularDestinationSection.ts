@@ -1,4 +1,4 @@
-export const featuredDestination = {
+export const  popularDestinationSection= {
     title: 'Popular Destination Section',
     name: 'popularDestinationSection',
     type: 'object',
